@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nav>a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px red ;
+}
+
+#mainForm{
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(193, 152, 152);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainForm>form{
+ height: 300px;
+ width: 300px;
+ background-color: black;
+ color: white;
+ border-radius: 10px;  
+ display: flex; 
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ font-family: Arial, Helvetica, sans-serif;
+ line-height: 25px;
+}
+
+#mainForm>form>button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(193, 152, 152);
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+#mainForm>form>button:hover{
+    transform: scale(1.1);
+}
+
+#Box{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(193, 152, 152);
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#Profile{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: right; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+td{
+    padding: 10px;
+}
+
+#btn{
+    height: 22px;
+    width: 60px;
+    background-color: azure;
+    border-radius: 50px;
+}
+#btn>a{
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+    font-weight: bolder;
+}
